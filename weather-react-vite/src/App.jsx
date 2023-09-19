@@ -4,7 +4,9 @@ function App() {
 
   return (
     <div className="App">
-      Hello
+      <small>
+        This project was coded by AG and is <a href='' target='_blank'>Open-sourced on Github</a>
+      </small>
     </div>
   )
 }
