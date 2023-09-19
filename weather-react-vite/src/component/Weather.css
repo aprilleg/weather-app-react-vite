@@ -1,0 +1,32 @@
+.Weather-info {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Weather-info h1 {
+  font-size: 24px;
+}
+.Weather-info p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.temp {
+  background-color: aqua;
+  border-radius: 0 50px 50px 0px;
+  font-size: 48px;
+  padding: 10px;
+}
+
+.temp-row {
+  text-align: center;
+  align-items: center;
+}
+
+
+.weather-conditions {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
