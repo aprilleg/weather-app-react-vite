@@ -17,6 +17,12 @@
   font-size: 48px;
   padding: 10px;
 }
+.temp .unit {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  top: -24px;
+}
 
 .temp-row {
   text-align: center;
