@@ -1,12 +1,12 @@
 import './App.css'
-import Weather from './component/Weather';
+import Weather from './component/weather/Weather';
 
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Philippines" />
       </div>
         <small>
           This project was coded by AG and is{" "}
