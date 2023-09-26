@@ -4,8 +4,9 @@
 }
 
 .temperature-min {
-  font-weight: 500;
+  opacity: 0.6;
+  
 }
 .temperature-max {
-  opacity: 0.6;
+  font-weight: 500;
 }

@@ -7,4 +7,6 @@
 .container {
   border: 1px solid #ccc;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 10px;
+  border-radius: 10px;
 }

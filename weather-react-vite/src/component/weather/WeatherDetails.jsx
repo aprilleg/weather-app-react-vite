@@ -3,7 +3,7 @@ import React from 'react'
 const WeatherDetails = (props) => {
   return (
     <div className="row temp-row mt-5">
-      <div className="col-4 temp">
+      <div className="col-4  temp">
         {Math.round(props.details.temperature)}
         <span className="unit">°C</span>
       </div>

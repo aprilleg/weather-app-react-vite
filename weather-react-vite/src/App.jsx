@@ -8,15 +8,15 @@ function App() {
       <div className="container">
         <Weather defaultCity="Philippines" />
       </div>
-        <small>
-          This project was coded by AG and is{" "}
-          <a
-            href="https://github.com/aprilleg/weather-app-react-vite"
-            target="_blank"
-          >
-            Open-sourced on Github
-          </a>
-        </small>
+      <small className=" text-body-tertiary">
+        This project was coded by AG and is{" "}
+        <a
+          href="https://github.com/aprilleg/weather-app-react-vite"
+          target="_blank"
+        >
+          Open-sourced on Github.
+        </a>
+      </small>
     </div>
   );
 }

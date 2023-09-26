@@ -50,14 +50,14 @@ const Weather = (props) => {
               {" "}
               <input
                 type="text"
-                placeholder="Enter a city"
-                className="form-control"
+                placeholder="Enter a city.."
+                className="form-control no-background"
                 autoFocus="on"
                 onChange={handleCityChange}
               />
             </div>
             <div className="col-4 d-grid d-block">
-              <button className="btn btn-primary">Submit</button>
+              <button className="btn btn-primary custom-btn">Submit</button>
             </div>
           </div>
         </form>
